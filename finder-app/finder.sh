@@ -2,6 +2,7 @@
 
 # Check if the correct invocation is used
 if [ "$#" -ne 2 ]; then
+  # Print the correct usage
   echo "Error: Two arguments required. Usage: $0 <filesdir> <searchstr>"
   exit 1
 fi
